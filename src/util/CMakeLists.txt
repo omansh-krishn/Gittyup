@@ -1,5 +1,5 @@
-add_library(util Path.cpp)
+add_library(gittyupUtil Path.cpp)
 
-target_link_libraries(util Qt5::Core)
+target_link_libraries(gittyupUtil Qt5::Core)
 
-set_target_properties(util PROPERTIES AUTOMOC ON)
+set_target_properties(gittyupUtil PROPERTIES AUTOMOC ON)
